@@ -9,7 +9,7 @@ Author: Reiji Yoshikai (Individual Researcher)
 
 The file `ATSD_Foundational_Model.lean` provides a rigorous, verified proof of local fiberwise spectral rigidity and non-negative autocorrelation under boundary defect cancellation.
 
-All proofs are machine-checked by the Lean 4 kernel with:
+Google Gemini was actively employed as an interactive AI reasoning partner throughout the proof discovery and formalization process. All formal statements and deductive steps are machine-checked by the Lean 4 kernel with:
 - 0 sorry placeholders
 - 0 external axioms
 - 0 errors
