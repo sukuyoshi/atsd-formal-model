@@ -2,12 +2,14 @@
 
 This repository contains the machine-checked formal verification in Lean 4 accompanying the paper:
 
-**"Canonical Adelic Topos Self-Duality: A Condensed Framework for Arithmetic Duality, the Standard Conjectures, and Global Automorphic Unitarity"**  
+**"On Canonical Adelic Topos Self-Duality: A Condensed Program, Concrete Models, and Formalized Fiberwise Rigidity"**  
 Author: Reiji Yoshikai (Individual Researcher)
 
 ## Overview
 
-The file `ATSD_Foundational_Model.lean` provides a rigorous, verified proof of local fiberwise spectral rigidity and non-negative autocorrelation under boundary defect cancellation.
+The file `ATSD_Foundational_Model.lean` provides a rigorous, machine-checked certification of local fiberwise algebraic spectral rigidity and non-negative autocorrelation under boundary defect cancellation on one-dimensional Hermitian fibers.
+
+It certifies the fiberwise algebraic mechanism underlying the ATSD working hypothesis, establishing that local defect cancellation unconditionally forces eigenvalues onto the imaginary axis. It does not construct the global adelic sheaf category, which is formulated as an open research program.
 
 Google Gemini was actively employed as an interactive AI reasoning partner throughout the proof discovery and formalization process. All formal statements and deductive steps are machine-checked by the Lean 4 kernel with:
 - 0 sorry placeholders
